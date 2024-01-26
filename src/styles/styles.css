@@ -53,3 +53,39 @@ padding: 16px 30px;
 .mt-220{
     margin-top: 220px;
 }
+
+.text-60{
+    color: var(--neutral-500, #2F2E41);
+
+/* H2 --desktop */
+font-family: "Playfair Display";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 106.667% */
+letter-spacing: -1px;
+}
+
+.btn_gradiant{
+    border: 0;
+background: rgb(244,244,244);
+background: linear-gradient(180deg, rgba(244,244,244,1) 48%, rgba(197,194,255,1) 48%);
+}
+
+.hamburger{
+    display: none;
+}
+
+
+@media (max-width: 1000px){
+.hamburger{
+    display: block;
+}
+}
+
+@media (max-width: 750px){
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
